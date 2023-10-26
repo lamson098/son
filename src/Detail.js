@@ -110,8 +110,7 @@ const Accessories1 = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
                         {Detaildata.map((item) => {
-
-                            return <Card style={{ width: '18rem' }}>
+                            return item.id == id ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -121,8 +120,7 @@ const Accessories1 = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
                                 </Card.Body>
-
-                            </Card>
+                            </Card> : []
                         })}
 
 
