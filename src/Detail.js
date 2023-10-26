@@ -110,20 +110,20 @@ const Accessories1 = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
                         {Detaildata.map((item) => {
-                            if (item.id == id) {
-                                return <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant="top" src={require(`${item.picture}`)} />
-                                    {console.log(item.picture)}
-                                    <Card.Body>
-                                        <Card.Title>{item.name}</Card.Title>
-                                        <Card.Text>
-                                            {item.price}
-                                        </Card.Text>
-                                        <Button variant="primary" className='me-3'>Add To Cart</Button>
-                                    </Card.Body>
 
-                                </Card>
-                            }
+                            return <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={require(`${item.picture}`)} />
+                                {console.log(item.picture)}
+                                <Card.Body>
+                                    <Card.Title>{item.name}</Card.Title>
+                                    <Card.Text>
+                                        {item.price}
+                                    </Card.Text>
+                                    <Button variant="primary" className='me-3'>Add To Cart</Button>
+                                </Card.Body>
+
+                            </Card>
+
 
                         })}
 
