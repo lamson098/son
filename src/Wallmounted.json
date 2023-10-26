@@ -1,0 +1,50 @@
+[
+    {
+        "id": 41,
+        "name": "Propagation Wall Mounted",
+        "price": "1.60$",
+        "picture": "./media/wallmounted/PropagationStationWallMounted.avif"
+    },
+    {
+        "id": 42,
+        "name": "Creative Wall mounted",
+        "price": "3.29$",
+        "picture": "./media/wallmounted/CreativeWallmounted.avif"
+    },
+    {
+        "id": 43,
+        "name": "Curved Wall Mounted",
+        "price": "2.00$",
+        "picture": "./media/wallmounted/CurvedWallMounted.avif"
+    },
+    {
+        "id": 44,
+        "name": "Glass Bottles Wall Mounted",
+        "price": "2.99$",
+        "picture": "./media/wallmounted/GlassBottlesWallMounted.webp"
+    },
+    {
+        "id": 45,
+        "name": "Round Wall Mounted ",
+        "price": "1.49$",
+        "picture": "./media/wallmounted/RoundWallMounted.avif"
+    },
+    {
+        "id": 46,
+        "name": "Terrariums Wall Mounted",
+        "price": "2.16$",
+        "picture": "./media/wallmounted/TerrariumsWallMounted.avif"
+    },
+    {
+        "id": 47,
+        "name": "Triangle Wall Mounted",
+        "price": "2.99$",
+        "picture": "./media/wallmounted/TriangleWallMounted.avif"
+    },
+    {
+        "id": 48,
+        "name": "Wall Mounted Vase",
+        "price": "1.99$",
+        "picture": "./media/wallmounted/WallMountedVase.avif"
+    }
+]

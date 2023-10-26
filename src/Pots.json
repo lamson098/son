@@ -1,0 +1,50 @@
+[
+    {
+        "id": 25,
+        "name": "Bangkota",
+        "price": "2.49$",
+        "picture": "./media/pots/Bangkota.png"
+    },
+    {
+        "id": 26,
+        "name": "DIkya",
+        "price": "4.18$",
+        "picture": "./media/pots/DIkya.png"
+    },
+    {
+        "id": 27,
+        "name": "Flagon Pitchers",
+        "price": "3.38$",
+        "picture": "./media/pots/FlagonPitchers.png"
+    },
+    {
+        "id": 28,
+        "name": "Granadas",
+        "price": "3.68$",
+        "picture": "./media/pots/Granadas.png"
+    },
+    {
+        "id": 29,
+        "name": "Hydria Pitchers",
+        "price": "6.18$",
+        "picture": "./media/pots/HydriaPitchers.png"
+    },
+    {
+        "id": 30,
+        "name": "Ochre Pitchers",
+        "price": "5.78$",
+        "picture": "./media/pots/OchrePitchers.png"
+    },
+    {
+        "id": 31,
+        "name": "Pawikan",
+        "price": "4.18$",
+        "picture": "./media/pots/Pawikan.png"
+    },
+    {
+        "id": 32,
+        "name": "Tetris Curve",
+        "price": "4.58$",
+        "picture": "./media/pots/TetrisCurve.png"
+    }
+]

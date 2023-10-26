@@ -1,0 +1,50 @@
+[
+    {
+        "id": 57,
+        "name": "Elephant Pot Hanger",
+        "price": "1.49$",
+        "picture": "./media/Pothangers/ElephantPotHanger.webp"
+    },
+    {
+        "id": 58,
+        "name": "Hare Pot Hanger",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/Harepothanger.webp"
+    },
+    {
+        "id": 59,
+        "name": "Hedgehog Pot Hanger",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/HedgehogPotHanger.webp"
+    },
+    {
+        "id": 60,
+        "name": "Leopard Pot Hanger",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/LeopardPotHanger.webp"
+    },
+    {
+        "id": 61,
+        "name": "Monkey Pot Hanger",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/MonkeyPotHanger.webp"
+    },
+    {
+        "id": 62,
+        "name": "Snail Pot Hangers",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/SnailPotHangers.webp"
+    },
+    {
+        "id": 63,
+        "name": "Squirrel Pot Hanger",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/SquirrelPotHanger.webp"
+    },
+    {
+        "id": 64,
+        "name": "Toucan Pot Hanger",
+        "price": "2.18$",
+        "picture": "./media/Pothangers/ToucanPotHanger.webp"
+    }
+]

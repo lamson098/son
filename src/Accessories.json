@@ -1,0 +1,50 @@
+[
+    {
+        "id": 81,
+        "name": "Blackboard Garden Labels",
+        "price": "1.49$",
+        "picture": "./media/accessories/BlackboardGardenLabels.jpeg"
+    },
+    {
+        "id": 82,
+        "name": "Dads Shed Oak Sign",
+        "price": "2.18$",
+        "picture": "./media/accessories/DadsShedOakSign.jpeg"
+    },
+    {
+        "id": 83,
+        "name": "Garden Snips Pocket Kit",
+        "price": "2.18$",
+        "picture": "./media/accessories/GardenSnipsPocket.jpeg"
+    },
+    {
+        "id": 84,
+        "name": "Laura Ashley Gardening Belt Tidy",
+        "price": "2.18$",
+        "picture": "./media/accessories/LauraAshleyGardeningBeltTidy.jpeg"
+    },
+    {
+        "id": 85,
+        "name": "Planting Line",
+        "price": "2.18$",
+        "picture": "./media/accessories/PlantingLine.jpeg"
+    },
+    {
+        "id": 86,
+        "name": "Laura Ashley Gardening Gift Set",
+        "price": "2.18$",
+        "picture": "./media/accessories/LauraAshleyGardeningGiftSet.jpeg"
+    },
+    {
+        "id": 87,
+        "name": "Vegetable Slate Plant Markers",
+        "price": "2.18$",
+        "picture": "./media/accessories/VegetableSlatePlantMarkers.jpeg"
+    },
+    {
+        "id": 88,
+        "name": "Gardeners Kneeler & Trowel Set",
+        "price": "2.18$",
+        "picture": "./media/accessories/GardenersKneelerTrowelSet.jpeg"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 9,
+        "name": "Neem Raksha - 100 ml",
+        "price": "1.49$",
+        "picture": "./media/picture/12.webp"
+    },
+    {
+        "id": 10,
+        "name": "Rose Booster - 50 ml",
+        "price": "2.18$",
+        "picture": "./media/picture/13.webp"
+    },
+    {
+        "id": 11,
+        "name": "Nilmite 550SC - 50 ml",
+        "price": "2.18$",
+        "picture": "./media/picture/14.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Gepa 50wg - 50 g",
+        "price": "2.18$",
+        "picture": "./media/picture/19.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Brightin 4.0EC  - 50 ml",
+        "price": "2.18$",
+        "picture": "./media/picture/16.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Secure 10EC17 - 50 ml",
+        "price": "2.18$",
+        "picture": "./media/picture/17.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Thiamax 25wg - 50 g",
+        "price": "2.18$",
+        "picture": "./media/picture/18.jpeg"
+    },
+    {
+        "id": 16,
+        "name": "Permecide 50EC  - 50 ml",
+        "price": "2.18$",
+        "picture": "./media/picture/15.jpeg"
+    }
+]

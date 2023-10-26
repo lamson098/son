@@ -1,0 +1,50 @@
+[
+    {
+        "id": 33,
+        "name": " Grower Pots (Black)",
+        "price": "1.49$",
+        "picture": "./media/plates/GrowerPots.jpeg"
+    },
+    {
+        "id": 34,
+        "name": "Ceramic Pot (White)",
+        "price": "2.18$",
+        "picture": "./media/plates/CeramicPot.webp"
+    },
+    {
+        "id": 35,
+        "name": "Grower Pots (Dark Pink)",
+        "price": "2.18$",
+        "picture": "./media/plates/DarkPink.jpeg"
+    },
+    {
+        "id": 36,
+        "name": "Grower Pots (Green) ",
+        "price": "2.18$",
+        "picture": "./media/plates/Green.jpeg"
+    },
+    {
+        "id": 37,
+        "name": "Grower Pots (Lime Yellow)",
+        "price": "2.18$",
+        "picture": "./media/plates/LimeYellow.jpeg"
+    },
+    {
+        "id": 38,
+        "name": "Grower Pots (Orange)",
+        "price": "2.18$",
+        "picture": "./media/plates/Orange.jpeg"
+    },
+    {
+        "id": 39,
+        "name": "Grower Pots (Sky Blue)",
+        "price": "2.18$",
+        "picture": "./media/plates/SkyBlue.jpeg"
+    },
+    {
+        "id": 40,
+        "name": "Grower Pots (Terracotta)",
+        "price": "2.18$",
+        "picture": "./media/plates/TerracottaColor.jpeg"
+    }
+]
