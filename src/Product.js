@@ -9,18 +9,8 @@ import Card from 'react-bootstrap/Card';
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
-import Soilfertilizers from './Soilfertilizers.json'
-import Pesticides from './Pesticide.json'
-import Seed from './Seed.json'
-import Pots from './Pots.json'
-import Potsplates from './Potsplates.json'
-import Wallmounted from './Wallmounted.json'
-import Wallhangingbrackets from './Wallhangingbrackets.json'
-import Pothangers from './Pothangers.json'
-import Railingbrackets from './Railingbrackets.json'
-import Miniature from './Miniature.json'
-import Accessories from './Accessories.json'
-import Decorative from './Decorative.json'
+import Detaildata from './Detaildata.json'
+
 import { Link } from 'react-router-dom';
 
 
@@ -52,7 +42,7 @@ const Product = () => {
                                 <Nav.Link href="#action2">Gardening Tips</Nav.Link>
                                 <NavDropdown title="Products" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="/Product">All Product</NavDropdown.Item>
-                                    <NavDropdown.Item href="/Product/Soilfertilizers">Soil fertilizers</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Product/Soil">Soil fertilizers</NavDropdown.Item>
                                     <NavDropdown.Item href="/Product/Pesticides">
                                         Pesticides for plants
                                     </NavDropdown.Item>
@@ -64,19 +54,19 @@ const Product = () => {
                                         <NavDropdown.Item href="/Product/Pots">
                                             Pots
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Potplates">
+                                        <NavDropdown.Item href="/Product/Plates">
                                             Pot plates
                                         </NavDropdown.Item>
                                         <NavDropdown.Item href="/Product/Wallmounted">
                                             Wall mounted
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Wallhangingbracket">
+                                        <NavDropdown.Item href="/Product/Wallhanging">
                                             Wall hanging brackets
                                         </NavDropdown.Item>
                                         <NavDropdown.Item href="/Product/Pothangers">
                                             Pot hangers
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Railingbrackets">
+                                        <NavDropdown.Item href="/Product/Railing">
                                             Railing brackets
                                         </NavDropdown.Item>
                                     </NavDropdown>
@@ -118,9 +108,9 @@ const Product = () => {
                         <p className='mediumtext boldtext'>Soil fertilizers</p>
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
-                        {Soilfertilizers.map((item) => {
+                        {Detaildata.map((item) => {
 
-                            return <Card style={{ width: '18rem' }}>
+                            return item.id > 0 && item.id <= 8 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -129,10 +119,10 @@ const Product = () => {
                                         {item.price}
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
-                                    <Link to={`/Product/${item.id}`}><Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
 
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
 
                         })}
 
@@ -145,9 +135,9 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Pesticides.map((item) => {
+                        {Detaildata.map((item) => {
 
-                            return <Card style={{ width: '18rem' }}>
+                            return item.id > 8 && item.id <= 16 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -157,9 +147,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
 
 
                         })}
@@ -170,8 +160,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Seed.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 16 && item.id <= 24 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -181,9 +171,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -192,8 +182,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Pots.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 24 && item.id <= 32 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -203,9 +193,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -214,8 +204,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Potsplates.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 32 && item.id <= 40 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -225,9 +215,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -236,8 +226,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Wallmounted.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 40 && item.id <= 48 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -247,9 +237,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
                     <div className="title">
@@ -257,8 +247,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Wallhangingbrackets.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 48 && item.id <= 56 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -268,9 +258,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -279,8 +269,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Pothangers.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 56 && item.id <= 64 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -290,9 +280,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -301,8 +291,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Railingbrackets.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 64 && item.id <= 72 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -312,9 +302,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -323,8 +313,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Miniature.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 72 && item.id <= 80 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -334,9 +324,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -345,8 +335,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Accessories.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 80 && item.id <= 88 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -356,9 +346,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
 
@@ -367,8 +357,8 @@ const Product = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
 
-                        {Decorative.map((item) => {
-                            return <Card style={{ width: '18rem' }}>
+                        {Detaildata.map((item) => {
+                            return item.id > 88 && item.id <= 96 ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -378,9 +368,9 @@ const Product = () => {
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
 
-                                    <Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
+                            </Card> : []
                         })}
                     </div>
                 </div>

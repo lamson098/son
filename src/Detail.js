@@ -106,7 +106,7 @@ const Accessories1 = () => {
             <div className="product-main">
                 <div className="product">
                     <div className="title">
-                        <p className='mediumtext boldtext'> Detail {id}</p>
+                        <p className='mediumtext boldtext'></p>
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
                         {Detaildata.map((item) => {

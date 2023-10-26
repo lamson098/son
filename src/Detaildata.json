@@ -1,575 +1,671 @@
 [
     {
+        "title": "Accessories",
         "id": 81,
         "name": "Blackboard Garden Labels",
         "price": "1.49$",
         "picture": "./media/accessories/BlackboardGardenLabels.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 82,
         "name": "Dads Shed Oak Sign",
         "price": "2.18$",
         "picture": "./media/accessories/DadsShedOakSign.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 83,
         "name": "Garden Snips Pocket Kit",
         "price": "2.18$",
         "picture": "./media/accessories/GardenSnipsPocket.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 84,
         "name": "Laura Ashley Gardening Belt Tidy",
         "price": "2.18$",
         "picture": "./media/accessories/LauraAshleyGardeningBeltTidy.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 85,
         "name": "Planting Line",
         "price": "2.18$",
         "picture": "./media/accessories/PlantingLine.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 86,
         "name": "Laura Ashley Gardening Gift Set",
         "price": "2.18$",
         "picture": "./media/accessories/LauraAshleyGardeningGiftSet.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 87,
         "name": "Vegetable Slate Plant Markers",
         "price": "2.18$",
         "picture": "./media/accessories/VegetableSlatePlantMarkers.jpeg"
     },
     {
+        "title": "Accessories",
         "id": 88,
         "name": "Gardeners Kneeler & Trowel Set",
         "price": "2.18$",
         "picture": "./media/accessories/GardenersKneelerTrowelSet.jpeg"
     },
     {
+        "title": "Decorative",
         "id": 89,
         "name": "Charcoal Lava Pebble",
         "price": "1.49$",
         "picture": "./media/Decorative/CharcoalLavaPebble.webp"
     },
     {
+        "title": "Decorative",
         "id": 90,
         "name": "OZ Pebbles 10mm Coffs",
         "price": "2.18$",
         "picture": "./media/Decorative/OZPebbles0mCoffs.webp"
     },
     {
+        "title": "Decorative",
         "id": 91,
         "name": "OZ Pebbles 20-50mm Coffs",
         "price": "2.18$",
         "picture": "./media/Decorative/OZPebbles2050mmCoffs.webp"
     },
     {
+        "title": "Decorative",
         "id": 92,
         "name": "OZ Pebbles 20mm Coffs",
         "price": "2.18$",
         "picture": "./media/Decorative/OZPebbles20mmCoffs.webp"
     },
     {
+        "title": "Decorative",
         "id": 93,
         "name": "Polished Black Pebbles",
         "price": "2.18$",
         "picture": "./media/Decorative/PolishedBlackPebbles.webp"
     },
     {
+        "title": "Decorative",
         "id": 94,
         "name": "Polished Wood Grain Med",
         "price": "2.18$",
         "picture": "./media/Decorative/PolishedWoodGrainMed.avif"
     },
     {
+        "title": "Decorative",
         "id": 95,
         "name": "Polished Jade Pebbles",
         "price": "2.18$",
         "picture": "./media/Decorative/PolishedJadePebbles.webp"
     },
     {
+        "title": "Decorative",
         "id": 96,
         "name": "Snow White Pebble",
         "price": "2.18$",
         "picture": "./media/Decorative/SnowWhitePebble.webp"
     },
     {
+        "title": "Miniature",
         "id": 73,
         "name": "3 Step Stump",
         "price": "1.49$",
         "picture": "./media/miniature/StepStump.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 74,
         "name": "Boy Carrying Buckets",
         "price": "2.18$",
         "picture": "./media/miniature/BoyCarryingBuckets.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 75,
         "name": "Ladybug Plastic",
         "price": "2.18$",
         "picture": "./media/miniature/LadybugPlastic.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 76,
         "name": "Road Step",
         "price": "2.18$",
         "picture": "./media/miniature/RoadStep.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 77,
         "name": "Sailors Wheel",
         "price": "2.18$",
         "picture": "./media/miniature/SailorsWheel.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 78,
         "name": "Shovel Tool ",
         "price": "2.18$",
         "picture": "./media/miniature/ShovelTool.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 79,
         "name": "Tortoise Ceramic",
         "price": "2.18$",
         "picture": "./media/miniature/TortoiseCeramic.jpeg"
     },
     {
+        "title": "Miniature",
         "id": 80,
         "name": "Wooden House ",
         "price": "2.18$",
         "picture": "./media/miniature/WoodenHouse.jpeg"
     },
     {
+        "title": "Pesticides",
         "id": 9,
         "name": "Neem Raksha - 100 ml",
         "price": "1.49$",
         "picture": "./media/picture/12.webp"
     },
     {
+        "title": "Pesticides",
         "id": 10,
         "name": "Rose Booster - 50 ml",
         "price": "2.18$",
         "picture": "./media/picture/13.webp"
     },
     {
+        "title": "Pesticides",
         "id": 11,
         "name": "Nilmite 550SC - 50 ml",
         "price": "2.18$",
         "picture": "./media/picture/14.jpeg"
     },
     {
+        "title": "Pesticides",
         "id": 12,
         "name": "Gepa 50wg - 50 g",
         "price": "2.18$",
         "picture": "./media/picture/19.jpeg"
     },
     {
+        "title": "Pesticides",
         "id": 13,
         "name": "Brightin 4.0EC  - 50 ml",
         "price": "2.18$",
         "picture": "./media/picture/16.jpeg"
     },
     {
+        "title": "Pesticides",
         "id": 14,
         "name": "Secure 10EC17 - 50 ml",
         "price": "2.18$",
         "picture": "./media/picture/17.jpeg"
     },
     {
+        "title": "Pesticides",
         "id": 15,
         "name": "Thiamax 25wg - 50 g",
         "price": "2.18$",
         "picture": "./media/picture/18.jpeg"
     },
     {
+        "title": "Pesticides",
         "id": 16,
         "name": "Permecide 50EC  - 50 ml",
         "price": "2.18$",
         "picture": "./media/picture/15.jpeg"
     },
     {
+        "title": "Pothangers",
         "id": 57,
         "name": "Elephant Pot Hanger",
         "price": "1.49$",
         "picture": "./media/Pothangers/ElephantPotHanger.webp"
     },
     {
+        "title": "Pothangers",
         "id": 58,
         "name": "Hare Pot Hanger",
         "price": "2.18$",
         "picture": "./media/Pothangers/Harepothanger.webp"
     },
     {
+        "title": "Pothangers",
         "id": 59,
         "name": "Hedgehog Pot Hanger",
         "price": "2.18$",
         "picture": "./media/Pothangers/HedgehogPotHanger.webp"
     },
     {
+        "title": "Pothangers",
         "id": 60,
         "name": "Leopard Pot Hanger",
         "price": "2.18$",
         "picture": "./media/Pothangers/LeopardPotHanger.webp"
     },
     {
+        "title": "Pothangers",
         "id": 61,
         "name": "Monkey Pot Hanger",
         "price": "2.18$",
         "picture": "./media/Pothangers/MonkeyPotHanger.webp"
     },
     {
+        "title": "Pothangers",
         "id": 62,
         "name": "Snail Pot Hangers",
         "price": "2.18$",
         "picture": "./media/Pothangers/SnailPotHangers.webp"
     },
     {
+        "title": "Pothangers",
         "id": 63,
         "name": "Squirrel Pot Hanger",
         "price": "2.18$",
         "picture": "./media/Pothangers/SquirrelPotHanger.webp"
     },
     {
+        "title": "Pothangers",
         "id": 64,
         "name": "Toucan Pot Hanger",
         "price": "2.18$",
         "picture": "./media/Pothangers/ToucanPotHanger.webp"
     },
     {
+        "title": "Pots",
         "id": 25,
         "name": "Bangkota",
         "price": "2.49$",
         "picture": "./media/pots/Bangkota.png"
     },
     {
+        "title": "Pots",
         "id": 26,
         "name": "DIkya",
         "price": "4.18$",
         "picture": "./media/pots/DIkya.png"
     },
     {
+        "title": "Pots",
         "id": 27,
         "name": "Flagon Pitchers",
         "price": "3.38$",
         "picture": "./media/pots/FlagonPitchers.png"
     },
     {
+        "title": "Pots",
         "id": 28,
         "name": "Granadas",
         "price": "3.68$",
         "picture": "./media/pots/Granadas.png"
     },
     {
+        "title": "Pots",
         "id": 29,
         "name": "Hydria Pitchers",
         "price": "6.18$",
         "picture": "./media/pots/HydriaPitchers.png"
     },
     {
+        "title": "Pots",
         "id": 30,
         "name": "Ochre Pitchers",
         "price": "5.78$",
         "picture": "./media/pots/OchrePitchers.png"
     },
     {
+        "title": "Pots",
         "id": 31,
         "name": "Pawikan",
         "price": "4.18$",
         "picture": "./media/pots/Pawikan.png"
     },
     {
+        "title": "Pots",
         "id": 32,
         "name": "Tetris Curve",
         "price": "4.58$",
         "picture": "./media/pots/TetrisCurve.png"
     },
     {
+        "title": "Plates",
         "id": 33,
         "name": " Grower Pots (Black)",
         "price": "1.49$",
         "picture": "./media/plates/GrowerPots.jpeg"
     },
     {
+        "title": "Plates",
         "id": 34,
         "name": "Ceramic Pot (White)",
         "price": "2.18$",
         "picture": "./media/plates/CeramicPot.webp"
     },
     {
+        "title": "Plates",
         "id": 35,
         "name": "Grower Pots (Dark Pink)",
         "price": "2.18$",
         "picture": "./media/plates/DarkPink.jpeg"
     },
     {
+        "title": "Plates",
         "id": 36,
         "name": "Grower Pots (Green) ",
         "price": "2.18$",
         "picture": "./media/plates/Green.jpeg"
     },
     {
+        "title": "Plates",
         "id": 37,
         "name": "Grower Pots (Lime Yellow)",
         "price": "2.18$",
         "picture": "./media/plates/LimeYellow.jpeg"
     },
     {
+        "title": "Plates",
         "id": 38,
         "name": "Grower Pots (Orange)",
         "price": "2.18$",
         "picture": "./media/plates/Orange.jpeg"
     },
     {
+        "title": "Plates",
         "id": 39,
         "name": "Grower Pots (Sky Blue)",
         "price": "2.18$",
         "picture": "./media/plates/SkyBlue.jpeg"
     },
     {
+        "title": "Plates",
         "id": 40,
         "name": "Grower Pots (Terracotta)",
         "price": "2.18$",
         "picture": "./media/plates/TerracottaColor.jpeg"
     },
     {
+        "title": "Railing",
         "id": 65,
         "name": "Black Handrail Bracket",
         "price": "1.49$",
         "picture": "./media/Railingbrackets/BlackHandrailBracket.webp"
     },
     {
+        "title": "Railing",
         "id": 66,
         "name": "Bracket for Round Handrails",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/BracketforRoundHandrails.webp"
     },
     {
+        "title": "Railing",
         "id": 67,
         "name": "Brass Handrail Bracket",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/VintageStairHandrailBrackets.webp"
     },
     {
+        "title": "Railing",
         "id": 68,
         "name": "Brown Handrail Brackets",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/BrownHandrailBrackets.webp"
     },
     {
+        "title": "Railing",
         "id": 69,
         "name": "Decorative Handrail Bracket",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/DecorativeHandrailBracket.webp"
     },
     {
+        "title": "Railing",
         "id": 70,
         "name": "Modern Lucite Handrail",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/ModernLuciteHandrail.webp"
     },
     {
+        "title": "Railing",
         "id": 71,
         "name": "Stair Handrail Brackets",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/StairHandrailBrackets.webp"
     },
     {
+        "title": "Railing",
         "id": 72,
         "name": "Vintage Handrail Brackets",
         "price": "2.18$",
         "picture": "./media/Railingbrackets/Vintage.webp"
     },
     {
+        "title": "Soil",
         "id": 1,
         "name": "Vermicompost - 1 kg ",
         "price": "1.60$",
         "picture": "./media/picture/4.jpeg"
     },
     {
+        "title": "Soil",
         "id": 2,
         "name": "Nutrient-rich - 5 kg",
         "price": "3.29$",
         "picture": "./media/picture/5.webp"
     },
     {
+        "title": "Soil",
         "id": 3,
         "name": "Plant O Boost - 10g (set of 10)",
         "price": "2.00$",
         "picture": "./media/picture/10.webp"
     },
     {
+        "title": "Soil",
         "id": 4,
         "name": "Coco Peat Block - 4 kg",
         "price": "2.99$",
         "picture": "./media/picture/7.jpeg"
     },
     {
+        "title": "Soil",
         "id": 5,
         "name": "Coco peat block - 900 g ",
         "price": "1.49$",
         "picture": "./media/picture/8.webp"
     },
     {
+        "title": "Soil",
         "id": 6,
         "name": "Polestar - 1 kg",
         "price": "2.16$",
         "picture": "./media/picture/9.jpeg"
     },
     {
+        "title": "Soil",
         "id": 7,
         "name": "General Purpose Garden - 5 kg",
         "price": "2.99$",
         "picture": "./media/picture/6.jpeg"
     },
     {
+        "title": "Soil",
         "id": 8,
         "name": "INOPROM - 1 kg",
         "price": "1.99$",
         "picture": "./media/picture/11.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 49,
         "name": "Bird Rustic Hanging",
         "price": "1.49$",
         "picture": "./media/Wallhangingbrackets/BirdRusticHanging.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 50,
         "name": "CastMetalHanging",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/CastMetalHanging.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 51,
         "name": "Black Hand Forged",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/BlackHandForged.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 52,
         "name": "Cast Metal Hanging",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/CastMetalHanging.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 53,
         "name": "Large Iron Hanging",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/LargeIronHanging.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 54,
         "name": "Minimalist Iron Hanging",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/MinimalistIronHanging.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 55,
         "name": "Projectting Hook Bracket",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/ProjecttingHookBracket.webp"
     },
     {
+        "title": "Wallhanging",
         "id": 56,
         "name": "Rustic Cast Iron Bracket",
         "price": "2.18$",
         "picture": "./media/Wallhangingbrackets/RusticCastIronBracket.webp"
     },
     {
+        "title": "Wallmounted",
         "id": 41,
         "name": "Propagation Wall Mounted",
         "price": "1.60$",
         "picture": "./media/wallmounted/PropagationStationWallMounted.avif"
     },
     {
+        "title": "Wallmounted",
         "id": 42,
         "name": "Creative Wall mounted",
         "price": "3.29$",
         "picture": "./media/wallmounted/CreativeWallmounted.avif"
     },
     {
+        "title": "Wallmounted",
         "id": 43,
         "name": "Curved Wall Mounted",
         "price": "2.00$",
         "picture": "./media/wallmounted/CurvedWallMounted.avif"
     },
     {
+        "title": "Wallmounted",
         "id": 44,
         "name": "Glass Bottles Wall Mounted",
         "price": "2.99$",
         "picture": "./media/wallmounted/GlassBottlesWallMounted.webp"
     },
     {
+        "title": "Wallmounted",
         "id": 45,
         "name": "Round Wall Mounted ",
         "price": "1.49$",
         "picture": "./media/wallmounted/RoundWallMounted.avif"
     },
     {
+        "title": "Wallmounted",
         "id": 46,
         "name": "Terrariums Wall Mounted",
         "price": "2.16$",
         "picture": "./media/wallmounted/TerrariumsWallMounted.avif"
     },
     {
+        "title": "Wallmounted",
         "id": 47,
         "name": "Triangle Wall Mounted",
         "price": "2.99$",
         "picture": "./media/wallmounted/TriangleWallMounted.avif"
     },
     {
+        "title": "Wallmounted",
         "id": 48,
         "name": "Wall Mounted Vase",
         "price": "1.99$",
         "picture": "./media/wallmounted/WallMountedVase.avif"
     },
     {
+        "title": "Seeds",
         "id": 17,
         "name": "Broccoli",
         "price": "0.49$",
         "picture": "./media/picture/20.webp"
     },
     {
+        "title": "Seeds",
         "id": 18,
         "name": "Sweet cabbage",
         "price": "0.18$",
         "picture": "./media/picture/21.webp"
     },
     {
+        "title": "Seeds",
         "id": 19,
         "name": "Spinach",
         "price": "0.08$",
         "picture": "./media/picture/22.webp"
     },
     {
+        "title": "Seeds",
         "id": 20,
         "name": "Swam spinach",
         "price": "0.68$",
         "picture": "./media/picture/23.webp"
     },
     {
+        "title": "Seeds",
         "id": 21,
         "name": "Crown daisy",
         "price": "0.39$",
         "picture": "./media/picture/24.webp"
     },
     {
+        "title": "Seeds",
         "id": 22,
         "name": "Bina",
         "price": "0.15$",
         "picture": "./media/picture/25.webp"
     },
     {
+        "title": "Seeds",
         "id": 23,
         "name": "Gotu Kola",
         "price": "0.19$",
         "picture": "./media/picture/26.webp"
     },
     {
+        "title": "Seeds",
         "id": 24,
         "name": "Winter Melon",
         "price": "0.28$",

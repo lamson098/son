@@ -44,7 +44,7 @@ const Home = () => {
                                         <Nav.Link href="#action2">Gardening Tips</Nav.Link>
                                         <NavDropdown title="Products" id="navbarScrollingDropdown">
                                             <NavDropdown.Item href="/Product">All Product</NavDropdown.Item>
-                                            <NavDropdown.Item href="/Product/Soilfertilizers">Soil fertilizers</NavDropdown.Item>
+                                            <NavDropdown.Item href="/Product/Soil">Soil fertilizers</NavDropdown.Item>
                                             <NavDropdown.Item href="/Product/Pesticides">
                                                 Pesticides for plants
                                             </NavDropdown.Item>
@@ -56,19 +56,19 @@ const Home = () => {
                                                 <NavDropdown.Item href="/Product/Pots">
                                                     Pots
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item href="/Product/Potplates">
+                                                <NavDropdown.Item href="/Product/Plates">
                                                     Pot plates
                                                 </NavDropdown.Item>
                                                 <NavDropdown.Item href="/Product/Wallmounted">
                                                     Wall mounted
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item href="/Product/Wallhangingbracket">
+                                                <NavDropdown.Item href="/Product/Wallhanging">
                                                     Wall hanging brackets
                                                 </NavDropdown.Item>
                                                 <NavDropdown.Item href="/Product/Pothangers">
                                                     Pot hangers
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item href="/Product/Railingbrackets">
+                                                <NavDropdown.Item href="/Product/Railing">
                                                     Railing brackets
                                                 </NavDropdown.Item>
                                             </NavDropdown>

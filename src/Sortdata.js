@@ -9,12 +9,15 @@ import Card from 'react-bootstrap/Card';
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
-import Pesticides from './Pesticide.json'
+import Detaildata from './Detaildata.json'
+import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
 
 
-const Pesticides1 = () => {
+const Accessories1 = () => {
+
+    let { name } = useParams();
 
     useEffect(() => {
         AOS.init({ duration: 2000 })
@@ -42,7 +45,7 @@ const Pesticides1 = () => {
                                 <Nav.Link href="#action2">Gardening Tips</Nav.Link>
                                 <NavDropdown title="Products" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="/Product">All Product</NavDropdown.Item>
-                                    <NavDropdown.Item href="/Product/Soilfertilizers">Soil fertilizers</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Product/Soil">Soil fertilizers</NavDropdown.Item>
                                     <NavDropdown.Item href="/Product/Pesticides">
                                         Pesticides for plants
                                     </NavDropdown.Item>
@@ -54,19 +57,19 @@ const Pesticides1 = () => {
                                         <NavDropdown.Item href="/Product/Pots">
                                             Pots
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Potplates">
+                                        <NavDropdown.Item href="/Product/Plates">
                                             Pot plates
                                         </NavDropdown.Item>
                                         <NavDropdown.Item href="/Product/Wallmounted">
                                             Wall mounted
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Wallhangingbracket">
+                                        <NavDropdown.Item href="/Product/Wallhanging">
                                             Wall hanging brackets
                                         </NavDropdown.Item>
                                         <NavDropdown.Item href="/Product/Pothangers">
                                             Pot hangers
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Railingbrackets">
+                                        <NavDropdown.Item href="/Product/Railing">
                                             Railing brackets
                                         </NavDropdown.Item>
                                     </NavDropdown>
@@ -104,12 +107,12 @@ const Pesticides1 = () => {
             <div className="product-main">
                 <div className="product">
                     <div className="title">
-                        <p className='mediumtext boldtext'>Pesticides For Plant</p>
+                        <p className='mediumtext boldtext'>{name}</p>
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
-                        {Pesticides.map((item) => {
+                        {Detaildata.map((item) => {
 
-                            return <Card style={{ width: '18rem' }}>
+                            return item.title === name ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
@@ -118,16 +121,17 @@ const Pesticides1 = () => {
                                         {item.price}
                                     </Card.Text>
                                     <Button variant="primary" className='me-3'>Add To Cart</Button>
-
-                                    <Link to={`/Product/${item.id}`}><Link to={`/Product/${item.id}`}><Button variant="warning">See Detail</Button></Link></Link>
+                                    <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
                                 </Card.Body>
-                            </Card>
-
+                            </Card> : []
                         })}
 
 
 
                     </div>
+
+
+
                 </div>
 
                 <div className="footer">
@@ -161,4 +165,4 @@ const Pesticides1 = () => {
     )
 }
 
-export default Pesticides1;
+export default Accessories1;
