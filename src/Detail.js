@@ -123,8 +123,6 @@ const Accessories1 = () => {
                                 </Card.Body>
 
                             </Card>
-
-
                         })}
 
 
