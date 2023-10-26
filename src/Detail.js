@@ -16,7 +16,7 @@ import { useParams } from 'react-router';
 
 const Accessories1 = () => {
 
-    const { id } = useParams();
+    let { id } = useParams();
 
     useEffect(() => {
         AOS.init({ duration: 2000 })
@@ -110,7 +110,9 @@ const Accessories1 = () => {
                     </div>
                     <div className="product1 aninmation" data-aos='fade-up'>
                         {Detaildata.map((item) => {
-                            return item.id == id ? <Card style={{ width: '18rem' }}>
+                            item.id = Number(item.id)
+                            id = Number(id)
+                            return item.id === id ? <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={require(`${item.picture}`)} />
                                 {console.log(item.picture)}
                                 <Card.Body>
