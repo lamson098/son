@@ -8,7 +8,7 @@ import Product from './Product';
 import Detail from './Detail'
 import Sortdata from './Sortdata'
 import Gardentip from './Gardentip';
-
+import Search from './Search'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +20,7 @@ root.render(
         <Route path='/Gardentips' element={<Gardentip />} />
         <Route path='/Product/detail/:id' element={<Detail />} />
         <Route path='/Product/:name' element={<Sortdata />} />
+  <Route path='/Product/search/:name' element={<Search />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
